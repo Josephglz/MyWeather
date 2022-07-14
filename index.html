@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Weather APP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="bx bx-left-arrow-alt"></i>My Weather APP
+        </header>
+        <section class="input-part">
+            <p class="info-txt">Ingresa un nombre de Ciudad.</p>
+            <input type="text" placeholder="Introduce una ciudad." spellcheck="false" required>
+            <div class="separator"></div>
+            <button>Ubicación Actual</button>
+        </section>
+        <section class="weather-part">
+            <img src="assets/img/clear.svg" alt="Weather Status">
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">º</span>
+            </div>
+            <div class="weather">_</div>
+            <div class="location">
+                <i class="bx bx-map"></i>
+                <span>_, _</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <i class="bx bxs-thermometer"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">º</span>
+                        </div>
+                        <p>Sensación</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="bx bxs-droplet-half"></i>
+                    <div class="details">
+                        <span>_%</span>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
