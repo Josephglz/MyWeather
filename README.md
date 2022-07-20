@@ -9,7 +9,7 @@ A live weather forecast build with HTML, CSS and Js.
 Using the [Open Weather API](https://openweathermap.org/api)
 
 ## Live Demo
-> http://jgnotes.josephglz.me
+> http://myweather.josephglz.me
 
 
 ## Screenshot
